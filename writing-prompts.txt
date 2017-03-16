@@ -1,0 +1,57 @@
+Writing Prompts
+
+** for loop
+
+you can set a block of code to repeat while certain conditions are true. As soon as the conditions
+evaluate as false the loop stops
+
+
+
+
+................................
+
+**  && || !
+
+Logical Operators
+
+&& also - allows you to match multiple criteria -- both need to be true
+   if(16 > 15 && hasLicense === true) {
+
+|| or - allows you to match one criteria OR the other critera -- one has to be true, the other doesn't matter
+   if(hasLicense === true || hasLearners === true) {
+
+! not - the criteria does not match = results as true
+   if(!isDrunk) { 
+
+................................
+
+**  Array
+
+a way to store a bunch of different values under the same name... connected together
+
+var colours = ['yellow','red','green','purple','blue'];
+
+console.log(colours.length); // counts the number of elements in the array -- will print "5"
+console.log(colours[1]); // will print "red" (yellow is in position 0)
+
+for(var i = 0; i < colours.length; i++) {
+  console.log(colours[i]);
+}
+
+
+
+................................
+
+**  git
+
+
+a way of keeping track of changes to your code. It stores different version, or updates to your code so if you need to rollback changes, due to errors or other reasons, you can easily
+
+
+................................
+
+**  GitHub
+
+a website that is an online repository of your code and it's changes. Allows you to share the code with your team or just the general public
+
+
